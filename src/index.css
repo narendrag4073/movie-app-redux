@@ -1,0 +1,146 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+  margin-right: 40px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  background: white;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+    background: white;  
+  }
+}
+.poster_img {
+  width: 100%;
+  box-shadow: rgb(204, 204, 204) 2px 0px 10px 0px;
+  height: 200px;
+  border-radius: 5px;
+}
+.movie_detail{
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background: #191717;
+  color: white;
+  min-height: 100vh;
+}
+.p5 {
+  padding: 5px;
+}
+.p10 {
+  padding: 10px;
+}
+
+.pt10{
+  padding-top: 10px;
+}
+.bb{
+  border-bottom: 1px solid #3c3a3a
+}
+.search_icon_position{
+  position: absolute;
+  top: 16px;
+  left: 95%;
+}
+.remove_button {
+  font-size: 10px;
+  border-color: white;
+  color: red;
+  background: transparent;
+  position: absolute;
+  top: 132px;
+}
+.watch_poster_img {
+  width: 85%;
+  box-shadow: rgb(204, 204, 204) 2px 0px 10px 0px;
+  height: 150px;
+  border-radius: 5px;
+}
+.pl-0 {
+  padding-left: 0px;
+}
+.col_grey {
+  color: #938b8b
+}
