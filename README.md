@@ -1,9 +1,14 @@
 # movie-app-redux
 Installation
-git clone https://github.com/notrab/create-react-app-redux.git
+git clone https://github.com/narendrag4073/movie-app-redux.git
+
+
 cd create-react-app-redux
+
+
 npm install Or yarn
 
 
 Run Application=========
+
 npm start Or yarn start
