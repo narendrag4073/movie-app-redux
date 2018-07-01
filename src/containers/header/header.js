@@ -8,10 +8,10 @@ import { connect } from 'react-redux';
 import { fetchMovieFromApi } from '../../modules/movies';
 
 const Header = props => (
-  <div>
-    <div class="topnav">
-        <a class="active" >Movies</a>
-        <div class="search-container">
+  <div className="bb">
+    <div className="topnav">
+        <a className="active" >Movies</a>
+        <div className="search-container">
             <form >
                 <i className="glyphicon glyphicon-search search_icon_position" ></i>
                 <input 
