@@ -3,7 +3,7 @@ Installation
 git clone https://github.com/narendrag4073/movie-app-redux.git
 
 
-cd create-react-app-redux
+cd movie-app-redux
 
 
 npm install Or yarn
